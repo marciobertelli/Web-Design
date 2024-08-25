@@ -1,0 +1,17 @@
+Instalação do TypeScript:
+    npm install -g typescript
+
+Inicialização npm:
+    npm init -y
+
+Instale o TypeScript como dependência de desenvolvimento:
+    npm install typescript --save-dev
+
+Crie um arquivo tsconfig.json com o comando:
+    npx tsc --init
+
+Para compilar arquivo .ts e gerar um .js:
+    tsc <NOME DO ARQUIVO>.ts
+
+Rodar arquivo JavaScript:
+    node <NOME DO ARQUIVO>.js
